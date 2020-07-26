@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.animated-text{
+    width: 230px;
+ font-family: "Playfair Display", serif; 
+  color: skyblue;
+   border-radius: 8px;
+  padding: 0 10px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.animated-text2{
+    width: 100%;
+  font-family: montserrat,sans-serif;   
+  color: white; 
+  position: absolute; 
+  top: 100px;     
+  height: 50px;
+  overflow: hidden;  
+   
+}
+/*---------------------*/
+/*---------------------*/
+@media screen and (max-width: 800px) {
+     
+.animated-text{
+  padding: 0 2px;
+    left: 320px;
+    
+      height: 44px;
+} 
+       
+.animated-text2{
+  padding: 0 2px; 
+  margin-top: 4px;
+    
+}
+     
+} 
+/*--2-------------------*/
+/*---------------------*/
+
+.line{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.line:first-child{
+  animation: anim 12s infinite;
+}
+.line2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;font-weight: 600;
+  line-height: 60px;
+}
+
+.line2:first-child{
+  animation: anim 16s infinite;
+}
+
+@keyframes anim {
+  0%{
+    margin-top: 0;
+  }
+  16%{
+    margin-top: -60px;
+  }
+  33%{
+    margin-top: -120px;
+  }
+  50%{
+    margin-top: -180px;
+  }
+  66%{
+    margin-top: -120px;
+  }
+  82%{
+    margin-top: -60px;
+  }
+  100%{
+    margin-top: 0;
+  }
+}
+/*---------------------------*/
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.wraptext {
+  text-align:center;
+    color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:27px;
+  
+   
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.ddiv {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.ddiv:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.ddiv:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.ddiv:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+} 
+
+/*---------------------*/
+@media screen and (max-width:500px) {
+  
+.wraptext {  font-size:23px;   
+} 
+} 
+/*--2-------------------*/ 

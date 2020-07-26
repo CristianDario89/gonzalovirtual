@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .perspective {
+  -webkit-perspective: 76em;
+  perspective: 76em;
+  -webkit-perspective-origin: 50% 50px;
+  perspective-origin: 50% 50px;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center; 
+}
+
+.perspective input { display: none; }
+
+.tab {
+  position: absolute;left: -117px;
+  width: 80px;
+  height: 70px;
+  background: pink;
+  right: 0;
+  line-height: 70px;
+  font-weight: 300;
+}
+
+.tab:nth-child(1) {
+  top: -5px;
+  background: #06D6A0;
+}
+
+.tab:nth-child(2) {
+  top: 69px;
+  background: #1B9AAA;
+}
+
+.tab:nth-child(3) {
+  top: 143px;
+  background: #EF476F;
+}
+
+.cube {
+  position: relative;
+  margin: 10px auto 0;
+  width: 100%;
+  height: 200px;
+  -webkit-transform-origin: 0 100px;
+  -ms-transform-origin: 0 100px;
+  transform-origin: 0 100px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+}
+
+.tab-content {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
+
+.tab-content h1 {
+  font-size: 25px;
+  margin: 75px 0 10px;
+  font-weight: 300;
+}
+
+.tab-content p { font-size: 12px; }
+
+.tab-content:nth-child(2) {
+  -webkit-transform: translateZ(100px);
+  transform: translateZ(100px);
+  background: #1B9AAA;
+}
+
+.tab-content:nth-child(1) {
+  -webkit-transform: rotateX(-270deg) translateY(-100px);
+  transform: rotateX(-270deg) translateY(-100px);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  background: #06D6A0;
+}
+
+.tab-content:nth-child(3) {
+  -webkit-transform: rotateX(-90deg) translateY(100px);
+  transform: rotateX(-90deg) translateY(100px);
+  -webkit-transform-origin: bottom center;
+  -ms-transform-origin: bottom center;
+  transform-origin: bottom center;
+  background: #EF476F;
+}
+#tab-one:checked ~ .cube {
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+#tab-two:checked ~ .cube {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+#tab-three:checked ~ .cube {
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+        .flexazo{
+            display: flex;flex-direction: column;
+        }
+        .hijodeflex{
+            width:70%;
+        }
+    </style>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+   
+   <div class="flexazo">
+       <div class="hijodeflex">
+           
+             <div class="perspective">
+
+  <label class="tab" for="tab-one"></label>
+  <label class="tab" for="tab-two">Tab 2</label>
+  <label class="tab" for="tab-three">Tab 3</label>
+  <input type="radio" name="tabs" id="tab-one">
+  <input type="radio" name="tabs" id="tab-two">
+  <input type="radio" name="tabs" id="tab-three"> 
+
+  <div class="cube">
+    <div class="tab-content">
+      <h1>Tab 1</h1>
+      <p>THIS IS AWESOME</p>
+    </div>
+     <div class="tab-content">
+      <h1>Tab 2</h1>
+      <p>THIS IS COOL</p>
+    </div>
+    <div class="tab-content">
+      <h1>Tab 3</h1>
+      <p>THIS IS SWEET</p>
+    </div>
+  </div>
+</div>
+</div>
+      
+   </div>
+   <script src="jquery-3.2.1.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
