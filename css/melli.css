@@ -101,7 +101,7 @@ font-weight: 700;
     margin-top: 20px;  
    font-family: "Playfair Display", serif;
 }
-.flexmelli div{   width: 290px;  
+.flexmelli div{   width: 30%;  
      border-radius: 8px;
     margin:  2px;padding: 5px;
 
@@ -110,25 +110,20 @@ font-weight: 700;
 .wrapmelli{   border: 2px solid skyblue; }
 .wrapmelli img{
     width: 100%;
-    height: 100px;
+    height: 158px;
     border-radius: 6px;
+    margin-top: 5px;
 } 
-.wrapmelli .pp a{
+.wrapmelli a{
     text-decoration: none;
     color: antiquewhite;
-    font-weight: 600;
+    font-weight: 600; 
+ letter-spacing: 1px;
+} 
+.wrapmelli  a:hover{
+color:deepskyblue;   
 }
-
-.wrapmelli .pp a:hover{
-color:deepskyblue;  
  
-}
-   .pp{ 
-   font-size: 12px;
-      transform: translateX(-9px); 
-       color: blue;
-       
-  }
 /*------------------------------------*/
  
 /*---------------------------------*/
@@ -181,34 +176,27 @@ color:deepskyblue;
       
     }  
  /*------------------------*/
-.contmp img{
-     height: 70px; width: 100px;
-}  
-    
-.mpmenu{
-     display: none;
-}
-    
- 
-    .mpmenu img{
-   z-index: 11111;
-}
-    /*-----------------*/
-    
+.contmp img{height: 70px; width: 100px;}      
+.mpmenu{ display: none;}
+.mpmenu img{ z-index: 11111;}
+    /*-----------------*/   
 .h1menu{
       margin-left:35%;
-}    
-.flexmelli{    width: 470px;
-    height: 200px;    
+}      
+.flexmelli{   
+    margin-top: 20px;
+    width: 500px;
+    height: 60px;   
+    margin-left: 10px;
 }
 .flexmelli div{
-    width:      134px;
+    width:      30%;
     border-radius: 8px;
-    margin-right:  2px;padding: 5px;
-}
-    .wrapmelli img{
-         height: 90px;
-    }    
+    margin-right:  2px;padding: 5px;    
+} 
+.wrapmelli img{
+         height: 140px;
+    }      
 .flextake{
     display: flex;
    flex-direction: column;
@@ -216,6 +204,9 @@ color:deepskyblue;
 }
 .wraptake{ margin-bottom: 60px;}
 .cuadras{   letter-spacing: 1.3px;
+}   
+.wrapmelli .pp a{
+   
 }     
 }
 /*---------------------*/
@@ -225,15 +216,20 @@ color:deepskyblue;
        
 .flexmelli{   
     margin-top: 20px;
-    width: 300px;
-    height: 60px;    
+    width: 500px;
+    height: 60px;   
+    margin-left: 10px;
 }
 .flexmelli div{
-    width:      96px;
+    width:      30%;
     border-radius: 8px;
     margin-right:  2px;padding: 5px;
-}
     
+}
+ 
+    .wrapmelli img{
+         height: 140px;
+    }    
    
 .flexdelivery ul li{
     transform: scale(1);

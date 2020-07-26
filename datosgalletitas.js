@@ -8,18 +8,18 @@ var datosDulces = [ {
     marca: "<strong>1 Docena</strong>",
     descripcion: "",
      precio: 130,
-   img: "images/galle/gad11.jpg"
+   img: "images/gonza/2.webp"
     
 }, 
 {
     marca: "<strong>1 Docena y media</strong>",
     precio: 170,
-    img: "images/galle/mante.jpg"
+    img: "images/gonza/11.jpg"
 },
 {
     marca: "<strong>2 Docenas</strong>",
      precio: 210,
-    img: "images/galle/pepi.jpg" 
+    img: "images/gonza/i8.jpg" 
 },
 {
     marca: "<strong>celosas</strong> bananas con chocolate 230g",
@@ -45,7 +45,7 @@ var datosDulces = [ {
 {
     marca: "<strong>1/2 Docena</strong>",
     precio: 70,
-    img: "images/galle/gd1.webp" 
+    img: "images/gonza/i3.jpg" 
 }
 ];
 /*-----------------------------*/
