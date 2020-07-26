@@ -5,20 +5,20 @@ var datosDulces = [ {
     img: "images/galle/g2.jpg"
 },
 {
-    marca: "<strong>Pitusas</strong>",
-    descripcion: "Mouse-Limon-chocolate-vainilla-frutilla",
-     precio: 45,
+    marca: "<strong>1 Docena</strong>",
+    descripcion: "",
+     precio: 130,
    img: "images/galle/gad11.jpg"
     
 }, 
 {
-    marca: "Mantecadas",
-    precio: 40,
+    marca: "<strong>1 Docena y media</strong>",
+    precio: 170,
     img: "images/galle/mante.jpg"
 },
 {
-    marca: "Pepitas",
-     precio: 40,
+    marca: "<strong>2 Docenas</strong>",
+     precio: 210,
     img: "images/galle/pepi.jpg" 
 },
 {
@@ -43,9 +43,9 @@ var datosDulces = [ {
     img: "images/galle/gad5.jpg"
 },
 {
-    marca: "surtidas <strong>bagley</strong>",
-    precio: 100,
-    img: "images/galle/gd1.jpg" 
+    marca: "<strong>1/2 Docena</strong>",
+    precio: 70,
+    img: "images/galle/gd1.webp" 
 }
 ];
 /*-----------------------------*/
@@ -136,7 +136,7 @@ over1("#ps4", datosSaladas[3].marca,datosSaladas[3].precio,datosSaladas[3].img);
     }  
  
 over2("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img, "media tarde Sandwich <strong> $ 83</strong>");
-over2("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img,"Mouse - Limon - chocolate - vainilla - frutilla");
+over2("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img,"");
  
 /*------------Galletitas--------------------*//*------------Galletitas--------------------*/
   
