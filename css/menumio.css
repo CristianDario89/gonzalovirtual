@@ -60,7 +60,7 @@ right: 1px;
     border-radius: 15%;  
 }
 .wrapcarrp{
-    position: relative;bottom: 40px;
+    position: relative; 
     
 }
 .clear-cart{
@@ -72,8 +72,8 @@ right: 1px;
 }
 /*---------------------------------*/
 @media screen and (max-width: 792px) {
-    .gotopbtn8{ width: 110px; right: 30px; } 
-    .gotopbtn{ bottom: 62px; right: 33px; bottom:97px;  } 
+    .gotopbtn8{ width: 110px; right: 20px;   } 
+    .gotopbtn{ right: 23px; bottom:97px;  } 
     
 
 }

@@ -48,6 +48,11 @@ to{
     transform: scale(1.2);
      margin-top:   12px;
 }
+    .menucostado2{ 
+      line-height: 30px;
+    transform: scale(1.2);
+     margin-top:   12px;
+}
 
 .estesale{display: block;}
 } 
@@ -71,6 +76,12 @@ z-index: 1111;
 text-shadow:  -1px -1px 11px white; 
 font-weight: 700; 
     border-bottom:5px solid #337ab7;  
+} 
+.menucostado2{
+z-index: 1111;
+text-shadow:  -1px -1px 11px red; 
+font-weight: 700; 
+    border-bottom:5px solid white;  font-family: cursive;letter-spacing: 1px;
 } 
 .centrowsp{    font-size: 20px;}
 
