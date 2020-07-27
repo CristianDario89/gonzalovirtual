@@ -17,18 +17,7 @@ to{
 
 .estesale{  display: none;}
 .margenicon{margin-right: 10px;}
-.wrapredes{    display: flex; } 
-.mercadopago{
-    display: flex;
-   position: absolute;z-index: 11;
-     top: 20px;margin-left:37%;  
-    
-}
- .mercadopago img{
-  width: 130px;height: 40px;
-      border-radius: 8px;
-     animation: up 4s;
-}
+.wrapredes{    display: flex; }  
 .wrapcompras1{display: flex;
     justify-content: space-around;
       margin-bottom: 20px;
@@ -49,13 +38,7 @@ to{
 /*---------------------*/
 @media screen and (max-width: 800px) {
     #vuelan{ display: block;}
-       .mercadopago{
-       animation: left 5s;
-     margin-left:17%;  
-           height: 42px;
-           margin-top: 20px;
-    }
-    
+       
 
 .centrowsp{    border-bottom: 12px solid deepskyblue;
     position: relative;z-index: 1;
@@ -166,15 +149,7 @@ color:deepskyblue;
 }
 /*---------------------------------*/
 @media screen and (max-width: 719px) {
-  .mercadopago {
-        left: -50px;
- top: -10px;
-      
-    }
-     .mercadopago img{
-    width: 100px;
-      
-    }  
+ 
  /*------------------------*/
 .contmp img{height: 70px; width: 100px;}      
 .mpmenu{ display: none;}

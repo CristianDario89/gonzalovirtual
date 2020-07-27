@@ -3,6 +3,8 @@ body{
   padding: 0;
 }
 
+ 
+
 .animated-text{
     width: 230px;
  font-family: "Playfair Display", serif; 
@@ -11,6 +13,8 @@ body{
   padding: 0 10px;
   height: 60px;
   overflow: hidden;
+    position: absolute;z-index: 11;
+   left: 40%;
 }
 
 .animated-text2{
@@ -30,7 +34,8 @@ body{
 .animated-text{
   padding: 0 2px;
     left: 320px;
-    
+       left: 25%;
+    top: 5%;
       height: 44px;
 } 
        
