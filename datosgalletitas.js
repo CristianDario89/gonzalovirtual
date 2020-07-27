@@ -107,12 +107,7 @@ over1("#p5", datosDulces[4].marca,datosDulces[4].precio,datosDulces[4].img);
 over1("#p6", datosDulces[5].marca,datosDulces[5].precio,datosDulces[5].img);
 over1("#p7", datosDulces[6].marca,datosDulces[6].precio,datosDulces[6].img);
 over1("#p1", datosDulces[8].marca,datosDulces[8].precio,datosDulces[8].img);
-
-over1("#ps1", datosSaladas[0].marca,datosSaladas[0].precio,datosSaladas[0].img);
-over1("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img);
-over1("#ps3", datosSaladas[2].marca,datosSaladas[2].precio,datosSaladas[2].img);
-over1("#ps4", datosSaladas[3].marca,datosSaladas[3].precio,datosSaladas[3].img);
-  
+ 
 /*-------------------*/
 
  var over2 = function(atrr,on,tw, thre,four) {
@@ -134,8 +129,7 @@ over1("#ps4", datosSaladas[3].marca,datosSaladas[3].precio,datosSaladas[3].img);
 <p href="" data-name="${on}" data-price="${tw}" class="add-to-cart btn btn-primary redondo">+</p> 
    `
     }  
- 
-over2("#ps2", datosSaladas[1].marca,datosSaladas[1].precio,datosSaladas[1].img, "media tarde Sandwich <strong> $ 83</strong>");
+  
 over2("#p2", datosDulces[1].marca,datosDulces[1].precio,datosDulces[1].img,"");
  
 /*------------Galletitas--------------------*//*------------Galletitas--------------------*/
