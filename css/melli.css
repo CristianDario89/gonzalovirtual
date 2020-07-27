@@ -95,9 +95,9 @@ font-weight: 700;
 /*-----------Menu ppal---------------------*/
 .flexmelli{
     display: flex;flex-wrap: wrap;
-  
-     width: 900px;  height: 200px;
-    margin: auto;
+  justify-content: center;
+     width: 100%;  height: 200px;
+    
     margin-top: 20px;  
    font-family: "Playfair Display", serif;
 }
@@ -185,7 +185,7 @@ color:deepskyblue;
 }      
 .flexmelli{   
     margin-top: 20px;
-    width: 500px;
+    width: 100%;
     height: 60px;   
     margin-left: 10px;
 }
@@ -203,29 +203,14 @@ color:deepskyblue;
     margin-left: 37%;
 }
 .wraptake{ margin-bottom: 60px;}
-.cuadras{   letter-spacing: 1.3px;
-}   
-.wrapmelli .pp a{
-   
-}     
+.cuadras{   letter-spacing: 1.3px;} 
+    
 }
 /*---------------------*/
 /*---------------------*/
 @media screen and (max-width:500px) {
    
-       
-.flexmelli{   
-    margin-top: 20px;
-    width: 500px;
-    height: 60px;   
-    margin-left: 10px;
-}
-.flexmelli div{
-    width:      30%;
-    border-radius: 8px;
-    margin-right:  2px;padding: 5px;
-    
-}
+  
  
     .wrapmelli img{
          height: 140px;
